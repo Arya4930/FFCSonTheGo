@@ -31,7 +31,7 @@ $(function () {
     });
 
     localforage.getItem('campus').then((campus) => {
-        window.location.hash = campus || '#Vellore';
+        window.location.hash = campus || '#Chennai';
         switchCampus();
 
         /*
